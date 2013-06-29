@@ -16,12 +16,13 @@ Download [Cordova](http://cordova.apache.org/) and follow the [Getting Started G
     + NOTE: The /www is readonly once opened in Xcode. Any file changes must be made in Finder!
 * Drag and drop the CoordComm.h and CoordComm.m class files inside the Plugins folder of your Cordova project.
     + NOTE: This can be done inside Xcode if you wish.
-* Finally, find the config.xml file of your Cordova project, and add the following lines:
-    
-    +'<plugins>
+
+Add the following lines in your config.xml file:
+
+    <plugins>
     <plugin name="CoordComm" value="CoordComm" />
-    </plugins>'
-    
+    </plugins>
+ 
 
 #Usage#
 Make sure you run the project once before making any changes, to see if Xcode throws out any errors. There will be a couple deprecation warnings regarding the Cordova framework, but they can be ignored until Cordova is updated.

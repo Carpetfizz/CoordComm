@@ -27,8 +27,8 @@ Add the following lines in your config.xml file:
 #Usage#
 Make sure you run the project once before making any changes, to see if Xcode throws out any errors. There will be a couple deprecation warnings regarding the Cordova framework, but they can be ignored until Cordova is updated.
 
-* Now that you have all the files set up, you can begin implementing them. First, import CoordComm.js into wherever you are using geolocation in your app.
-       <script type="text/javascript" src="js/CoordComm.js"></script>
+* Now that you have all the files set up, you can begin implementing them. First, import CoordComm.js into wherever you are using geolocation in your app
+  `<script type="text/javascript" src="js/CoordComm.js"></script>`
 * Next, call `window.getCoords()` function with your own callback. 
 
 #Example Implementation#

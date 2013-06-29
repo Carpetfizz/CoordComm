@@ -17,6 +17,7 @@ Download [Cordova](http://cordova.apache.org/) and follow the [Getting Started G
 * Drag and drop the CoordComm.h and CoordComm.m class files inside the Plugins folder of your Cordova project.
     + NOTE: This can be done inside Xcode if you wish.
 * Finally, find the config.xml file of your Cordova project, and add the following lines:
+    
     <plugins>
     <plugin name="CoordComm" value="CoordComm" />
     </plugins>

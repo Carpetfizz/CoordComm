@@ -20,10 +20,7 @@ Download [Cordova](http://cordova.apache.org/) and follow the [Getting Started G
     <plugins>
     <plugin name="CoordComm" value="CoordComm" />
     </plugins>
-    +NOTE: In the future, the <plugins></plugins> tag will be deprecated. Once the Cordova update has been released, you must use this instead:
-    <feature name="CoordComm">
-    <param name="ios-package" value="CoordComm">
-    </feature>
+    
 
 #Usage#
 Make sure you run the project once before making any changes, to see if Xcode throws out any errors. There will be a couple deprecation warnings regarding the Cordova framework, but they can be ignored until Cordova is updated.

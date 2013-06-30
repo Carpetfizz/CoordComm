@@ -30,9 +30,9 @@
 
 
 
--(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+-(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
 {
-    CLLocation* location = [locations lastObject];
+    CLLocation* location = newLocation;
     CDVPluginResult* pluginResultSuccess = nil;
     CDVInvokedUrlCommand* newCommand = self.command; //Retrieves the previously stored CDV command
     float lat = location.coordinate.latitude; 

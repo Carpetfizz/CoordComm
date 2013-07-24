@@ -44,6 +44,7 @@ Make sure you run the project once before making any changes, to see if Xcode th
 
 #Notes/Warnings#
 * iOS Simulator is a SIMULATOR and cannot interpret your actual location. The result of your run in the simulator will be a dummy latitude and longitude.
+* You can load your own location into the simulator if you have a `.gpx` file. Generate one [here](http://gpx-poi.com/).
 * This readme will be updated once a new version of Cordova comes out and when there are changes, such as the <feature> tag. 
 * Cordova warnings do not have to do with the CoordComm class, but with compatibility issues between the Xcode 4.6.x,iOS6.x+,and the current versions of Cordova.
 
